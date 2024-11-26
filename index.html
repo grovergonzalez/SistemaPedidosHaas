@@ -7,398 +7,1105 @@
     <title>PEDIDOS ONLINE - Haas</title>
 </head>
 <body>
-    <h1>Sistema de Pedidos en Línea - Haas</h1>
+    
     <form action="#" method="POST">
 
+        <div id="DataContent">
+            <h1>Sistema de Pedidos en Línea - Haas</h1>
+            <!-- Datos del Cliente -->
+            <h2>Datos del Cliente</h2>
+            <label for="nombre">Cliente:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="RazonSocial">Razón Social:</label>
+            <input type="text" id="RazonSocial" name="RazonSocial" required><br><br>
+            <label for="NIT">NIT:</label>
+            <input type="number" id="NIT" name="NIT" required><br><br>
+            <label for="FechaPedido">Fecha Pedido:</label>
+            <input type="date" id="FechaPedido" name="FechaPedido" required><br><br>
+            <label for="FechaEntrega">Fecha Entrega:</label>
+            <input type="date" id="FechaEntrega" name="FechaEntrega" required><br><br>
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="logo">Mi Tienda</div>
+            <div>
+                <a href="#embutidos">Embutidos</a>
+                <a href="#tolavi">Tolavi</a>
+            </div>
+        </nav>
+
         <!-- Sección Embutidos -->
-        <h2>Embutidos</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>CÓDIGO</th>
-                    <th>PRODUCTO</th>
-                    <th>UNID.</th>
-                    <th>PESO NETO</th>
-                    <th>Cantidad</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>100070</td>
-                    <td>Mortadela Jamonada</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>100076</td>
-                    <td>Bologna</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>100076</td>
-                    <td>Cazador</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>100076</td>
-                    <td>Cervecero</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>100076</td>
-                    <td>Frenco</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>100076</td>
-                    <td>Oldemburgo</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>100076</td>
-                    <td>Primavera</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>100076</td>
-                    <td>Morcilla Lenguada</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1110</td>
-                    <td>Queso de Chancho</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1011</td>
-                    <td>Cracovia</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1045</td>
-                    <td>Jamon Cocido York</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1046</td>
-                    <td>Jamon Campesino</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1048</td>
-                    <td>Jamon Selva Negra</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1047</td>
-                    <td>Jamon Inglés</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1049</td>
-                    <td>Jamon Serrano</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1043</td>
-                    <td>Jamon Berlín</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1042</td>
-                    <td>Jamon Ahumado</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1002</td>
-                    <td>Arrollado Criollo de Cerdo</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1024</td>
-                    <td>Chorizo Parrillero</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1032</td>
-                    <td>Chorizo Nuremberg Grueso</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1032</td>
-                    <td>Chorizo Nuremberg Delgado</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1018</td>
-                    <td>Chorizo Freir</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1015</td>
-                    <td>Chorizo Cervecero</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1021</td>
-                    <td>Chorizo Español</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1012</td>
-                    <td>Chorizo Bock</td>
-                    <td>Paq.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1025</td>
-                    <td>Chorizo Peperoni</td>
-                    <td>Paq.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1020</td>
-                    <td>Chorizo Ternera</td>
-                    <td>Paq.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1013</td>
-                    <td>Chorizo Curry</td>
-                    <td>Paq.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1019</td>
-                    <td>Chorizo Morcilla X 500 GR</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1014</td>
-                    <td>Chorizo Calabreza</td>
-                    <td>Paq.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1026</td>
-                    <td>Chorizo Viena Con Color</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1026</td>
-                    <td>Chorizo Viena Sin Color</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1022</td>
-                    <td>Chorizo Franfort Con Color</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1022</td>
-                    <td>Chorizo Franfort Sin Color</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1016</td>
-                    <td>Chorizo Coctel</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1017</td>
-                    <td>Chorizo Con Queso</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1101</td>
-                    <td>Paté Westfalia</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1105</td>
-                    <td>Mousse de Jamón 125gr.</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1099</td>
-                    <td>Paté de Hígado 1/4 (grande)</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1100</td>
-                    <td>Paté de Hígado 1/8 (pequeño)</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1106</td>
-                    <td>Paté de Campo 125gr.</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>2051</td>
-                    <td>Lechón</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>2019</td>
-                    <td>Costillas de Cerdo</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>2026</td>
-                    <td>Chuletas de Cerdo</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>2090</td>
-                    <td>Tocino Crudo</td>
-                    <td>kg.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-                <tr>
-                    <td>1081</td>
-                    <td>Nudos Crudos</td>
-                    <td>Pza.</td>
-                    <td></td>
-                    <td><input type="number" min="0"></td>
-                </tr>
-            </tbody>
-        </table>
+         <section id="embutidos">
+            <h2>Embutidos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>CÓDIGO</th>
+                        <th>PRODUCTO</th>
+                        <th>UNID.</th>
+                        <th>PESO NETO</th>
+                        <th>PESO ENVIADO</th>
+                        <th>No. LOTE</th>
+                        <th>OBSERVACIONES</th>
+                        <th>CANTIDAD</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>100070</td>
+                        <td>Mortadela Jamonada</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>100076</td>
+                        <td>Bologna</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>100076</td>
+                        <td>Cazador</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>100076</td>
+                        <td>Cervecero</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>100076</td>
+                        <td>Frenco</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>100076</td>
+                        <td>Oldemburgo</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>100076</td>
+                        <td>Primavera</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>100076</td>
+                        <td>Morcilla Lenguada</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1110</td>
+                        <td>Queso de Chancho</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1011</td>
+                        <td>Cracovia</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1045</td>
+                        <td>Jamon Cocido York</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1046</td>
+                        <td>Jamon Campesino</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1048</td>
+                        <td>Jamon Selva Negra</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1047</td>
+                        <td>Jamon Inglés</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1049</td>
+                        <td>Jamon Serrano</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1043</td>
+                        <td>Jamon Berlín</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1042</td>
+                        <td>Jamon Ahumado</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1002</td>
+                        <td>Arrollado Criollo de Cerdo</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1024</td>
+                        <td>Chorizo Parrillero</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1032</td>
+                        <td>Chorizo Nuremberg Grueso</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1032</td>
+                        <td>Chorizo Nuremberg Delgado</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1018</td>
+                        <td>Chorizo Freir</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1015</td>
+                        <td>Chorizo Cervecero</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1021</td>
+                        <td>Chorizo Español</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1012</td>
+                        <td>Chorizo Bock</td>
+                        <td>Paq.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1025</td>
+                        <td>Chorizo Peperoni</td>
+                        <td>Paq.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1020</td>
+                        <td>Chorizo Ternera</td>
+                        <td>Paq.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1013</td>
+                        <td>Chorizo Curry</td>
+                        <td>Paq.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1019</td>
+                        <td>Chorizo Morcilla X 500 GR</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1014</td>
+                        <td>Chorizo Calabreza</td>
+                        <td>Paq.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1026</td>
+                        <td>Chorizo Viena Con Color</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1026</td>
+                        <td>Chorizo Viena Sin Color</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1022</td>
+                        <td>Chorizo Franfort Con Color</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1022</td>
+                        <td>Chorizo Franfort Sin Color</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1016</td>
+                        <td>Chorizo Coctel</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1017</td>
+                        <td>Chorizo Con Queso</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1101</td>
+                        <td>Paté Westfalia</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1105</td>
+                        <td>Mousse de Jamón 125gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1099</td>
+                        <td>Paté de Hígado 1/4 (grande)</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1100</td>
+                        <td>Paté de Hígado 1/8 (pequeño)</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1106</td>
+                        <td>Paté de Campo 125gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>2051</td>
+                        <td>Lechón</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>Costillas de Cerdo</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>2026</td>
+                        <td>Chuletas de Cerdo</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>2090</td>
+                        <td>Tocino Crudo</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1081</td>
+                        <td>Nudos Crudos</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1080</td>
+                        <td>Nudos o Perniles Cocido</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1080</td>
+                        <td>Nudos o Perniles Ahumados</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1080</td>
+                        <td>Nudos o Perniles para Escabeche</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>2052</td>
+                        <td>Lomo de Cerdo</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>2073</td>
+                        <td>Pierna de Cerdo</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>2068</td>
+                        <td>Paleta de Cerdo</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>2011</td>
+                        <td>Carne Molida de Cerdo</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>2070</td>
+                        <td>Patas Cerdo Completo</td>
+                        <td>Jgo.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1104</td>
+                        <td>Pastrami (Pecho cocido)</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>2035</td>
+                        <td>Filete de Cerdo (Somillo)</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1037</td>
+                        <td>Chuleta Ahumada</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1010</td>
+                        <td>Chuleta Ahumada Cortada</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1115</td>
+                        <td>Salame Grande</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1115</td>
+                        <td>Salame Pequeño</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1061</td>
+                        <td>Lomito Ahumado</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1085</td>
+                        <td>Panceta Ahumada</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1003</td>
+                        <td>Asado de Cerdo</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1004</td>
+                        <td>Costilla a la Pimienta</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1094</td>
+                        <td>Costilla Rellenada con Pistacho</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1088</td>
+                        <td>Panceta Jamonada</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1093</td>
+                        <td>Pastel de Ternera</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1090</td>
+                        <td>Pastel de Carne de Cerdo</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>2067</td>
+                        <td>Pacumuto Normal</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Manteca de Cerdo x 500 GR</td>
+                        <td>BOL</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>2025</td>
+                        <td>Carne Chicharrón/Fricassé</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Hueso de Cerdo</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>Cuero de Cerdo</td>
+                        <td>kg.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td id="ENVASADOS">ENVASADOS</td>
+                    </tr>
+                    <tr>
+                        <td>3015</td>
+                        <td>Chorizo Viena 250gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Chorizo Viena 500gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Chorizo Viena 1Kilo</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1119</td>
+                        <td>Chorizo Viena 1/2 paq. San Juan</td>
+                        <td>Paq.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>1035</td>
+                        <td>Chorizo Viena paq. San Juan</td>
+                        <td>Paq.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3045</td>
+                        <td>Mortadela Jamonada 200gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3076</td>
+                        <td>Mortadela Surt. (200 gr.) - Bologna</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3076</td>
+                        <td>Mortadela Surt. (200 gr.) - Cazador</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3076</td>
+                        <td>Mortadela Surt. (200 gr.) - Cervecero</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3076</td>
+                        <td>Mortadela Surt. (200 gr.) - Frenco</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3076</td>
+                        <td>Mortadela Surt. (200 gr.) - Oldemburgo</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3076</td>
+                        <td>Mortadela Surt. (200 gr.) - Primavera</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3076</td>
+                        <td>Mortadela Surt. (200 gr.) - Morcilla Lenguada</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Jamón Ahumado 250gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Jamón Berlín 250gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3044</td>
+                        <td>Jamón Ahumado 100gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Lomito Ahumado 250gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Lomito Ahumado 100gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Jamón York 250gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3042</td>
+                        <td>Jamón Inglés 250gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3037</td>
+                        <td>Jamón Inglés 100gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3043</td>
+                        <td>Jamón Serrano 250gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3049</td>
+                        <td>Jamón Serrano 100gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3062</td>
+                        <td>Panceta Ahumada 250gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Panceta Ahumada 100gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3070</td>
+                        <td>Salame 250gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>3115</td>
+                        <td>Salame 100gr.</td>
+                        <td>Pza.</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
 
-        <!-- Sección Tolavi -->
-        <h2>Tolavi</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>CÓDIGO</th>
-                    <th>PRODUCTO</th>
-                    <th>UNID.</th>
-                    <th>PEDIDO</th>
-                    <th>PESO NETO</th>
-                    <th>PESO ENVIADO</th>
-                    <th>No. LOTE</th>
-                    <th>OBSERVACIONES</th>
-                    <th>Cantidad</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>101</td>
-                    <td>Producto A</td>
-                    <td>Unidad</td>
-                    <td>15</td>
-                    <td>7 kg</td>
-                    <td>6 kg</td>
-                    <td>12345</td>
-                    <td>Observación ejemplo</td>
-                    <td><input type="number" name="cantidad_tolavi_101" min="0"></td>
-                </tr>
-                <tr>
-                    <td>102</td>
-                    <td>Producto B</td>
-                    <td>Paquete</td>
-                    <td>8</td>
-                    <td>4 kg</td>
-                    <td>3.5 kg</td>
-                    <td>54321</td>
-                    <td>Sin observaciones</td>
-                    <td><input type="number" name="cantidad_tolavi_102" min="0"></td>
-                </tr>
-            </tbody>
-        </table>
-
-        <!-- Datos del Cliente -->
-        <h2>Datos del Cliente</h2>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br><br>
-        <label for="direccion">Dirección:</label>
-        <input type="text" id="direccion" name="direccion" required><br><br>
-        <label for="telefono">Teléfono:</label>
-        <input type="text" id="telefono" name="telefono" required><br><br>
-        <button type="submit">Realizar Pedido</button>
+        <section id="tolavi">
+            <!-- Sección Tolavi -->
+            <h2>Tolavi</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>CÓDIGO</th>
+                        <th>PRODUCTO</th>
+                        <th>UNID.</th>
+                        <th>PEDIDO</th>
+                        <th>PESO NETO</th>
+                        <th>PESO ENVIADO</th>
+                        <th>No. LOTE</th>
+                        <th>OBSERVACIONES</th>
+                        <th>Cantidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Producto A</td>
+                        <td>Unidad</td>
+                        <td>15</td>
+                        <td>7 kg</td>
+                        <td>6 kg</td>
+                        <td>12345</td>
+                        <td>Observación ejemplo</td>
+                        <td><input type="number" name="cantidad_tolavi_101" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Producto B</td>
+                        <td>Paquete</td>
+                        <td>8</td>
+                        <td>4 kg</td>
+                        <td>3.5 kg</td>
+                        <td>54321</td>
+                        <td>Sin observaciones</td>
+                        <td><input type="number" name="cantidad_tolavi_102" min="0"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <h2>REALIZAR PEDIDO</h2>
+        <button type="submit">ENVIAR</button>
     </form>
 </body>
 </html>
